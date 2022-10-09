@@ -1,9 +1,11 @@
-
+*{
+    font-family: 'Noto Sans Mono', monospace;
+}
 
 body{
     /*background-image: url(https://img.freepik.com/psd-premium/maqueta-logotipo-realista-moderna-sala-fitness-gimnasio_9790-721.jpg?w=2000);
     background-size: cover;*/
-    background-color: rgb(128, 128, 199);
+    background-color: rgba(42, 42, 44, 0.151);
 }
 
 nav{
@@ -17,45 +19,24 @@ h1{
     text-align: center;
 }
 
-table {
-    background-color:rgb(165, 170, 179)
-}
-
-
- /* 
-    *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;  
-    
-*/
-
-
-#conteItemsCarrusel{
-    border: 5px solid black;
-    height: auto;
-}
-.itemCarrusel{
+table, th, td {
     border: 1px solid black;
-    height: 100px;
-    position: relative;
-    }
-.tarjetaCarrusel{
-    background-color: rgba(148, 40, 40, 0.863);
-    height: 100%;
+    width: auto;
 }
-.flechascarrusel {
-    background-color: rgba(39, 8, 68, 0.315);
-    
-    position: absolute;
-    top: 0;
+
+
+#contacto{
     height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    background-image: url(img/contacto.jpg);
+}
+
+form{
+    background-color: aquamarine;
 }
 
 
 
+footer{
+    padding: 5%;
+    text-align: center;
+}
