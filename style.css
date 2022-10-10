@@ -79,23 +79,26 @@ table, th, td {
 }
 
 
-#contacto{
-    height: 1200;
-    background-image: url(img/contacto.jpg);
-}
-
-form{
-    background-color: rgba(127, 255, 212, 0.452);
-}
+body #contacto{
+    
+    background-image: url(img/fondo1.jpg);
+    background-size: cover;
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;
+    
+    */
+    }
 
 .ubicacion{
     padding: 2rem;
-    margin: 2rem%;
+    margin: 2rem;
     position: relative;
 }
 
 footer{
-    padding: 5%;
+    padding: 2rem;
     text-align: center;
 }
 
