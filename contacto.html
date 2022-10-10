@@ -11,6 +11,9 @@
 <body>
     <header>
         <nav id="menubar">
+            <label for="" class="brand">
+                <a href="index.html"><img src="img/iconopag.JPG" alt=""></a>
+            </label>
             <a href="index.html">Inicio</a>
             <a href="servicios.html">Servicios</a>
             <a href="horarios.html">Horarios</a>
@@ -20,13 +23,13 @@
         
     </header>
     <section>
-        <div id="contacto">
+        <div>
             <h1>Solicitud turnos</h1>
         </div>
     </section>
-    <menu>
+    <menu id="contacto">
         <h2>Contacto</h2>
-        <form action="/formulario" method="POST">
+        <form action="/formulario" method="POST" target="_blank">
             <label for="apellido">Apellido</label>
             <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br><br>
             <label for="nombre">Nombre</label>
@@ -39,12 +42,13 @@
             <textarea id="comentario" cols="50" rows="10" nombre="comentario" placeholder="Comentario" ></textarea><br>
             <input type="submit">
             <Button type="reset">Borrar formulario</Button>
-        </form>
-        
-       
+        </form>     
     </menu>
 </body>
 <footer>
-  <p>Derechos reservados a @GymSpace</p>
+    <i><img src="img/twitter-circled.png" height="30" alt="twitter-circled"></i>
+    <i><img src="img/instagram.png" height="30" alt="instagram"></i>
+    <i><img src="img/facebook-new.png" height="30" alt="facebook-new"></i>
+    <p>Derechos reservados a @Gimnasio Space</p>
 </footer>
 </html>
